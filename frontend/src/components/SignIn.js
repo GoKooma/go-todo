@@ -30,10 +30,10 @@ const SignIn = () => {
             <Input
               htmlSize={4}
               width="auto"
-              // variant="outlined"
               size="md"
               type="email"
               id="username"
+              placeholder="Enter Username"
             />
             <br />
             <Text>
