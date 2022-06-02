@@ -10,7 +10,7 @@ go run .
 ```
 
 App will run on `localhost:3000`.
-*There will be nothing much to see unless you bundle frontend code.*
+⚠️*There will be nothing much to see unless you bundle frontend code.*
 
 ### Frontend
 Make sure you are inside the **frontend** directory. If this is your first time running the app, make sure you `yarn add package.json`.
