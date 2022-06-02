@@ -24,7 +24,21 @@ module.exports = {
             },
           },
         ],
-      }
+      },
+      {
+        test: /\.css$/i,
+        include: path.resolve(__dirname, './styles'),
+        use: ['style-loader', 'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: ["postcss-preset-env",],
+              },
+            },
+          },
+        ],
+      },
     ]
   },
   resolve: {
