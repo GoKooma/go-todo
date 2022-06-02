@@ -1,0 +1,47 @@
+{
+  "name": "go-todo",
+  "version": "1.0.0",
+  "description": "To Do List with Go Fiber and React",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --config webpack.js --progress --color -w",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kooma93/go-todo.git"
+  },
+  "keywords": [
+    "go"
+  ],
+  "author": "Michael Koo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kooma93/go-todo/issues"
+  },
+  "homepage": "https://github.com/kooma93/go-todo#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "package.json": "^2.0.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "typescript": "^4.7.2",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^3.22.8",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16",
+    "svg-url-loader": "^7.1.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
